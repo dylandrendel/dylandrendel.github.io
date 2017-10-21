@@ -1,0 +1,72 @@
+img {
+    cursor: pointer;
+    &:hover {
+      opacity: 0.5;
+      bottom: 2rem;
+    }
+  }
+
+$basefade: 2.6s;
+$basedelay: 1.3s;
+
+@mixin fadedelay($fadetime, $delay) {
+    animation: fadein $fadetime;
+    -moz-animation: fadein $fadetime; /* Firefox */
+    -webkit-animation: fadein $fadetime; /* Safari and Chrome */
+    -webkit-animation-delay: $delay; /* Safari */
+    animation-delay: $delay;
+    animation-fill-mode: backwards;    
+
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fadein { /* Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fadein { /* Safari and Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+}
+
+.fade {
+    @include fadedelay($basefade, 0s);
+}
+
+.fadevan {
+    @include fadedelay($basefade, $basedelay);
+}
+
+.fadesolar {
+    @include fadedelay($basefade, $basedelay*1.1);
+}
+
+.fademusic {
+    @include fadedelay($basefade, $basedelay*1.2);
+}
+
+.fadesectionheader {
+    @include fadedelay($basefade, $basedelay);    
+}
+
+.fadesection {
+    @include fadedelay($basefade, $basedelay);    
+}
+
+.fadeback {
+    @include fadedelay($basefade, $basedelay*2);    
+}
