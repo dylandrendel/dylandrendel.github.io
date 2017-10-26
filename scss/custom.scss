@@ -1,18 +1,11 @@
-img {
-    cursor: pointer;
-    &:hover {
-      opacity: 0.5;
-      bottom: 2rem;
-    }
-  }
-
-$basefade: 2.6s;
+$basefade: 1.8s;
 $basedelay: 1.3s;
+$baselightcolor: #60ac5d;
 
 @mixin fadedelay($fadetime, $delay) {
-    animation: fadein $fadetime;
-    -moz-animation: fadein $fadetime; /* Firefox */
-    -webkit-animation: fadein $fadetime; /* Safari and Chrome */
+    animation: fadein $fadetime ease-in;
+    -moz-animation: fadein $fadetime ease-in; /* Firefox */
+    -webkit-animation: fadein $fadetime ease-in; /* Safari and Chrome */
     -webkit-animation-delay: $delay; /* Safari */
     animation-delay: $delay;
     animation-fill-mode: backwards;    
@@ -43,6 +36,40 @@ $basedelay: 1.3s;
     }
 }
 
+@mixin fadedelaycolor($fadetime, $delay) {
+    animation: fadein $fadetime ease-in;
+    -moz-animation: fadein $fadetime ease-in; /* Firefox */
+    -webkit-animation: fadein $fadetime ease-in; /* Safari and Chrome */
+    -webkit-animation-delay: $delay; /* Safari */
+    animation-delay: $delay;
+    animation-fill-mode: backwards;    
+
+    @keyframes fadein {
+        from {
+            background-color:white;
+        }
+        to {
+            background-color:$baselightcolor;
+        }
+    }
+    @-moz-keyframes fadein { /* Firefox */
+        from {
+            background-color:white;
+        }
+        to {
+            background-color:$baselightcolor;
+        }
+    }
+    @-webkit-keyframes fadein { /* Safari and Chrome */
+        from {
+            background-color:white;
+        }
+        to {
+            background-color:$baselightcolor;
+        }
+    }
+}
+
 .fade {
     @include fadedelay($basefade, 0s);
 }
@@ -69,4 +96,66 @@ $basedelay: 1.3s;
 
 .fadeback {
     @include fadedelay($basefade, $basedelay*2);    
+}
+
+.header {
+    margin-top: 12rem;
+    text-align: center;
+}
+.three-img {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    & .four.columns {
+        //margin-top: 1rem;
+        & img {
+            display: block;
+            text-align: center;
+            margin: 2.5rem auto 0;
+            cursor: pointer;
+            &:hover {
+              opacity: 0.5;
+              //@include fadedelaycolor($basedelay,0s);
+            }         
+        }
+    } 
+}
+
+     /* Larger than phone */
+@media (min-width: 550px) {
+    .header {
+        margin-top: 18rem;
+    }
+    .three-img {
+        margin-top: 9rem;
+        margin-bottom: 7rem;
+        & .four.columns {
+            & img {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
+.rightnav {
+    @include fadedelay($basefade, $basedelay*2.2)
+    float: right;
+    position: fixed;
+    right: 0;
+    background-color: #2e7d32;
+    color: white  !important;
+    line-height: 6rem;
+    border-radius: 0 0 0 2rem;
+    .nav-item {
+        //border: 1px solid white;
+        line-height: 2rem;
+        margin: 2.5rem;
+        padding: 4px;
+        a {
+            color: white;
+            text-decoration: none; 
+            &:hover {
+                opacity: 0.5 !important;  
+            }
+        }
+    }
 }

@@ -1,3 +1,292 @@
+.fade {
+  animation: fadein 1.8s ease-in;
+  -moz-animation: fadein 1.8s ease-in;
+  /* Firefox */
+  -webkit-animation: fadein 1.8s ease-in;
+  /* Safari and Chrome */
+  -webkit-animation-delay: 0s;
+  /* Safari */
+  animation-delay: 0s;
+  animation-fill-mode: backwards; }
+
+@keyframes fadein {
+  from {
+    background-color: white; }
+  to {
+    background-color: #60ac5d; } }
+
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    background-color: white; }
+  to {
+    background-color: #60ac5d; } }
+
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    background-color: white; }
+  to {
+    background-color: #60ac5d; } }
+
+.fadevan {
+  animation: fadein 1.8s ease-in;
+  -moz-animation: fadein 1.8s ease-in;
+  /* Firefox */
+  -webkit-animation: fadein 1.8s ease-in;
+  /* Safari and Chrome */
+  -webkit-animation-delay: 1.3s;
+  /* Safari */
+  animation-delay: 1.3s;
+  animation-fill-mode: backwards; }
+
+@keyframes fadein {
+  from {
+    background-color: white; }
+  to {
+    background-color: #60ac5d; } }
+
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    background-color: white; }
+  to {
+    background-color: #60ac5d; } }
+
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    background-color: white; }
+  to {
+    background-color: #60ac5d; } }
+
+.fadesolar {
+  animation: fadein 1.8s ease-in;
+  -moz-animation: fadein 1.8s ease-in;
+  /* Firefox */
+  -webkit-animation: fadein 1.8s ease-in;
+  /* Safari and Chrome */
+  -webkit-animation-delay: 1.43s;
+  /* Safari */
+  animation-delay: 1.43s;
+  animation-fill-mode: backwards; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.fademusic {
+  animation: fadein 1.8s ease-in;
+  -moz-animation: fadein 1.8s ease-in;
+  /* Firefox */
+  -webkit-animation: fadein 1.8s ease-in;
+  /* Safari and Chrome */
+  -webkit-animation-delay: 1.56s;
+  /* Safari */
+  animation-delay: 1.56s;
+  animation-fill-mode: backwards; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.fadesectionheader {
+  animation: fadein 1.8s ease-in;
+  -moz-animation: fadein 1.8s ease-in;
+  /* Firefox */
+  -webkit-animation: fadein 1.8s ease-in;
+  /* Safari and Chrome */
+  -webkit-animation-delay: 1.3s;
+  /* Safari */
+  animation-delay: 1.3s;
+  animation-fill-mode: backwards; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.fadesection {
+  animation: fadein 1.8s ease-in;
+  -moz-animation: fadein 1.8s ease-in;
+  /* Firefox */
+  -webkit-animation: fadein 1.8s ease-in;
+  /* Safari and Chrome */
+  -webkit-animation-delay: 1.3s;
+  /* Safari */
+  animation-delay: 1.3s;
+  animation-fill-mode: backwards; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.fadeback {
+  animation: fadein 1.8s ease-in;
+  -moz-animation: fadein 1.8s ease-in;
+  /* Firefox */
+  -webkit-animation: fadein 1.8s ease-in;
+  /* Safari and Chrome */
+  -webkit-animation-delay: 2.6s;
+  /* Safari */
+  animation-delay: 2.6s;
+  animation-fill-mode: backwards; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.header {
+  margin-top: 12rem;
+  text-align: center; }
+
+.three-img {
+  margin-top: 3rem;
+  margin-bottom: 4rem; }
+  .three-img .four.columns img {
+    display: block;
+    text-align: center;
+    margin: 2.5rem auto 0;
+    cursor: pointer; }
+    .three-img .four.columns img:hover {
+      opacity: 0.5; }
+
+/* Larger than phone */
+@media (min-width: 550px) {
+  .header {
+    margin-top: 18rem; }
+  .three-img {
+    margin-top: 9rem;
+    margin-bottom: 7rem; }
+    .three-img .four.columns img {
+      margin-bottom: 1rem; } }
+
+.rightnav {
+  animation: fadein 1.8s ease-in;
+  -moz-animation: fadein 1.8s ease-in;
+  /* Firefox */
+  -webkit-animation: fadein 1.8s ease-in;
+  /* Safari and Chrome */
+  -webkit-animation-delay: 2.86s;
+  /* Safari */
+  animation-delay: 2.86s;
+  animation-fill-mode: backwards;
+  float: right;
+  position: fixed;
+  right: 0;
+  background-color: #2e7d32;
+  color: white  !important;
+  line-height: 6rem;
+  border-radius: 0 0 0 2rem; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+  .rightnav .nav-item {
+    line-height: 2rem;
+    margin: 2.5rem;
+    padding: 4px; }
+    .rightnav .nav-item a {
+      color: white;
+      text-decoration: none; }
+      .rightnav .nav-item a:hover {
+        opacity: 0.5 !important; }
+
 /*
 * Skeleton V2.0.4
 * Copyright 2014, Dave Gamache
@@ -207,11 +496,13 @@ body {
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
 
+/* 
 a {
-  color: #1eaedb; }
-  a:hover {
-    color: #1b9cc5; }
-
+  color: $link-color;
+  &:hover {
+    color: darken($link-color, 5%);
+  }
+} */
 hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
@@ -289,247 +580,6 @@ h6 {
 p {
   margin-top: 0; }
 
-.container {
-  max-width: 800px; }
-
-.header {
-  margin-top: 6rem;
-  text-align: center; }
-
-.value-prop {
-  margin-top: 1rem; }
-
-.value-props {
-  margin-top: 4rem;
-  margin-bottom: 4rem; }
-
-.docs-header {
-  text-transform: uppercase;
-  font-size: 1.4rem;
-  letter-spacing: .2rem;
-  font-weight: 600; }
-
-.docs-section {
-  border-top: 1px solid #eee;
-  padding: 4rem 0;
-  margin-bottom: 0; }
-
-.value-img {
-  display: block;
-  text-align: center;
-  margin: 2.5rem auto 0; }
-
-.example-grid .column,
-.example-grid .columns {
-  background: #EEE;
-  text-align: center;
-  border-radius: 4px;
-  font-size: 1rem;
-  text-transform: uppercase;
-  height: 30px;
-  line-height: 30px;
-  margin-bottom: .75rem;
-  font-weight: 600;
-  letter-spacing: .1rem; }
-
-.docs-example .row,
-.docs-example.row,
-.docs-example form {
-  margin-bottom: 0; }
-
-.docs-example h1,
-.docs-example h2,
-.docs-example h3,
-.docs-example h4,
-.docs-example h5,
-.docs-example h6 {
-  margin-bottom: 1rem; }
-
-.heading-font-size {
-  font-size: 1.2rem;
-  color: #999;
-  letter-spacing: normal; }
-
-.code-example {
-  margin-top: 1.5rem;
-  margin-bottom: 0; }
-
-.code-example-body {
-  white-space: pre;
-  word-wrap: break-word; }
-
-.example {
-  position: relative;
-  margin-top: 4rem; }
-
-.example-header {
-  font-weight: 600;
-  margin-top: 1.5rem;
-  margin-bottom: .5rem; }
-
-.example-description {
-  margin-bottom: 1.5rem; }
-
-.example-screenshot-wrapper {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  border-radius: 6px;
-  border: 1px solid #eee;
-  height: 250px; }
-
-.example-screenshot {
-  width: 100%;
-  height: auto; }
-
-.example-screenshot.coming-soon {
-  width: auto;
-  position: absolute;
-  background: #eee;
-  top: 5px;
-  right: 5px;
-  bottom: 5px;
-  left: 5px; }
-
-.navbar {
-  display: none; }
-
-/* Larger than phone */
-@media (min-width: 550px) {
-  .header {
-    margin-top: 18rem; }
-  .value-props {
-    margin-top: 9rem;
-    margin-bottom: 7rem; }
-  .value-img {
-    margin-bottom: 1rem; }
-  .example-grid .column,
-  .example-grid .columns {
-    margin-bottom: 1.5rem; }
-  .docs-section {
-    padding: 6rem 0; }
-  .example-send-yourself-copy {
-    float: right;
-    margin-top: 12px; }
-  .example-screenshot-wrapper {
-    position: absolute;
-    width: 48%;
-    height: 100%;
-    left: 0;
-    max-height: none; } }
-
-/* Larger than tablet */
-@media (min-width: 750px) {
-  /* Navbar */
-  .navbar + .docs-section {
-    border-top-width: 0; }
-  .navbar,
-  .navbar-spacer {
-    display: block;
-    width: 100%;
-    height: 6.5rem;
-    background: #fff;
-    z-index: 99;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee; }
-  .navbar-spacer {
-    display: none; }
-  .navbar > .container {
-    width: 100%; }
-  .navbar-list {
-    list-style: none;
-    margin-bottom: 0; }
-  .navbar-item {
-    position: relative;
-    float: left;
-    margin-bottom: 0; }
-  .navbar-link {
-    text-transform: uppercase;
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: .2rem;
-    margin-right: 35px;
-    text-decoration: none;
-    line-height: 6.5rem;
-    color: #222; }
-  .navbar-link.active {
-    color: #33C3F0; }
-  .has-docked-nav .navbar {
-    position: fixed;
-    top: 0;
-    left: 0; }
-  .has-docked-nav .navbar-spacer {
-    display: block; }
-  /* Re-overiding the width 100% declaration to match size of % based container */
-  .has-docked-nav .navbar > .container {
-    width: 80%; }
-  /* Popover */
-  .popover.open {
-    display: block; }
-  .popover {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #fff;
-    border: 1px solid #eee;
-    border-radius: 4px;
-    top: 92%;
-    left: -50%;
-    -webkit-filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.1));
-    -moz-filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.1));
-    filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.1)); }
-  .popover-item:first-child .popover-link:after,
-  .popover-item:first-child .popover-link:before {
-    bottom: 100%;
-    left: 50%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none; }
-  .popover-item:first-child .popover-link:after {
-    border-color: rgba(255, 255, 255, 0);
-    border-bottom-color: #fff;
-    border-width: 10px;
-    margin-left: -10px; }
-  .popover-item:first-child .popover-link:before {
-    border-color: rgba(238, 238, 238, 0);
-    border-bottom-color: #eee;
-    border-width: 11px;
-    margin-left: -11px; }
-  .popover-list {
-    padding: 0;
-    margin: 0;
-    list-style: none; }
-  .popover-item {
-    padding: 0;
-    margin: 0; }
-  .popover-link {
-    position: relative;
-    color: #222;
-    display: block;
-    padding: 8px 20px;
-    border-bottom: 1px solid #eee;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1.0rem;
-    font-weight: 600;
-    text-align: center;
-    letter-spacing: .1rem; }
-  .popover-item:first-child .popover-link {
-    border-radius: 4px 4px 0 0; }
-  .popover-item:last-child .popover-link {
-    border-radius: 0 0 4px 4px;
-    border-bottom-width: 0; }
-  .popover-link:hover {
-    color: #fff;
-    background: #33C3F0; }
-  .popover-link:hover,
-  .popover-item:first-child .popover-link:hover:after {
-    border-bottom-color: #33C3F0; } }
-
 /* Modules */
 /*
 * Skeleton V2.0.4
@@ -543,10 +593,12 @@ p {
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
+  .container.full-span {
+    width: 100%; }
 
 .column,
 .columns {
@@ -557,11 +609,15 @@ p {
 @media (min-width: 400px) {
   .container {
     width: 85%;
-    padding: 0; } }
+    padding: 0; }
+    .container.full-span {
+      width: 100%; } }
 
 @media (min-width: 550px) {
   .container {
     width: 80%; }
+    .container.full-span {
+      width: 100%; }
   .column,
   .columns {
     margin-left: 4%; }
@@ -714,35 +770,35 @@ input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focu
 .button.button-primary,
 button.button-primary {
   color: #fff;
-  background-color: #33c3f0;
-  border-color: #33c3f0; }
+  background-color: #60ac5d;
+  border-color: #2e7d32; }
 
 input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
   color: #fff;
-  background-color: #33c3f0;
-  border-color: #33c3f0; }
+  background-color: #2e7d32;
+  border-color: #2e7d32; }
 
 .button.button-primary:hover,
 button.button-primary:hover {
   color: #fff;
-  background-color: #1eaedb;
-  border-color: #1eaedb; }
+  background-color: #60ac5d;
+  border-color: #60ac5d; }
 
 input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover {
   color: #fff;
-  background-color: #1eaedb;
-  border-color: #1eaedb; }
+  background-color: #60ac5d;
+  border-color: #60ac5d; }
 
 .button.button-primary:focus,
 button.button-primary:focus {
   color: #fff;
-  background-color: #1eaedb;
-  border-color: #1eaedb; }
+  background-color: #60ac5d;
+  border-color: #60ac5d; }
 
 input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
   color: #fff;
-  background-color: #1eaedb;
-  border-color: #1eaedb; }
+  background-color: #60ac5d;
+  border-color: #60ac5d; }
 
 input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"] {
   height: 38px;
@@ -784,12 +840,12 @@ textarea {
   padding-bottom: 6px; }
 
 input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="text"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="password"]:focus {
-  border: 1px solid #33c3f0;
+  border: 1px solid #2e7d32;
   outline: 0; }
 
 textarea:focus,
 select:focus {
-  border: 1px solid #33c3f0;
+  border: 1px solid #2e7d32;
   outline: 0; }
 
 label,
@@ -850,6 +906,7 @@ th,
 td {
   padding: 12px 15px;
   text-align: left;
+  border-left: 1px solid #e1e1e1;
   border-bottom: 1px solid #e1e1e1; }
 
 th:first-child,
@@ -858,7 +915,7 @@ td:first-child {
 
 th:last-child,
 td:last-child {
-  padding-right: 0; }
+  padding-right: 5px; }
 
 button,
 .button {
@@ -880,226 +937,3 @@ ul,
 ol,
 form {
   margin-bottom: 2.5rem; }
-
-img {
-  cursor: pointer; }
-  img:hover {
-    opacity: 0.5;
-    bottom: 2rem; }
-
-.fade {
-  animation: fadein 2.6s;
-  -moz-animation: fadein 2.6s;
-  /* Firefox */
-  -webkit-animation: fadein 2.6s;
-  /* Safari and Chrome */
-  -webkit-animation-delay: 0s;
-  /* Safari */
-  animation-delay: 0s;
-  animation-fill-mode: backwards; }
-
-@keyframes fadein {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes fadein {
-  /* Firefox */
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-webkit-keyframes fadein {
-  /* Safari and Chrome */
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-.fadevan {
-  animation: fadein 2.6s;
-  -moz-animation: fadein 2.6s;
-  /* Firefox */
-  -webkit-animation: fadein 2.6s;
-  /* Safari and Chrome */
-  -webkit-animation-delay: 1.3s;
-  /* Safari */
-  animation-delay: 1.3s;
-  animation-fill-mode: backwards; }
-
-@keyframes fadein {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes fadein {
-  /* Firefox */
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-webkit-keyframes fadein {
-  /* Safari and Chrome */
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-.fadesolar {
-  animation: fadein 2.6s;
-  -moz-animation: fadein 2.6s;
-  /* Firefox */
-  -webkit-animation: fadein 2.6s;
-  /* Safari and Chrome */
-  -webkit-animation-delay: 1.43s;
-  /* Safari */
-  animation-delay: 1.43s;
-  animation-fill-mode: backwards; }
-
-@keyframes fadein {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes fadein {
-  /* Firefox */
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-webkit-keyframes fadein {
-  /* Safari and Chrome */
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-.fademusic {
-  animation: fadein 2.6s;
-  -moz-animation: fadein 2.6s;
-  /* Firefox */
-  -webkit-animation: fadein 2.6s;
-  /* Safari and Chrome */
-  -webkit-animation-delay: 1.56s;
-  /* Safari */
-  animation-delay: 1.56s;
-  animation-fill-mode: backwards; }
-
-@keyframes fadein {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes fadein {
-  /* Firefox */
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-webkit-keyframes fadein {
-  /* Safari and Chrome */
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-.fadesectionheader {
-  animation: fadein 2.6s;
-  -moz-animation: fadein 2.6s;
-  /* Firefox */
-  -webkit-animation: fadein 2.6s;
-  /* Safari and Chrome */
-  -webkit-animation-delay: 1.3s;
-  /* Safari */
-  animation-delay: 1.3s;
-  animation-fill-mode: backwards; }
-
-@keyframes fadein {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes fadein {
-  /* Firefox */
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-webkit-keyframes fadein {
-  /* Safari and Chrome */
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-.fadesection {
-  animation: fadein 2.6s;
-  -moz-animation: fadein 2.6s;
-  /* Firefox */
-  -webkit-animation: fadein 2.6s;
-  /* Safari and Chrome */
-  -webkit-animation-delay: 1.3s;
-  /* Safari */
-  animation-delay: 1.3s;
-  animation-fill-mode: backwards; }
-
-@keyframes fadein {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes fadein {
-  /* Firefox */
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-webkit-keyframes fadein {
-  /* Safari and Chrome */
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-.fadeback {
-  animation: fadein 2.6s;
-  -moz-animation: fadein 2.6s;
-  /* Firefox */
-  -webkit-animation: fadein 2.6s;
-  /* Safari and Chrome */
-  -webkit-animation-delay: 2.6s;
-  /* Safari */
-  animation-delay: 2.6s;
-  animation-fill-mode: backwards; }
-
-@keyframes fadein {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-moz-keyframes fadein {
-  /* Firefox */
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@-webkit-keyframes fadein {
-  /* Safari and Chrome */
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
